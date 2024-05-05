@@ -34,7 +34,7 @@ Before running the script, please configure the following settings in the script
 
 - The script first logs into Pinterest using the provided credentials.
 - It navigates to the specified board URL.
-- The script downloads images from every subfolder it encounters up to one level deep. It does not recursively download from deeper folder levels.
+- The script downloads images from every subfolder it encounters up to **one** level deep. It does not recursively download from deeper folder levels.
 - After downloading images from the subfolders, it returns to the main page and continues with the remaining images.
 
 ## Usage
